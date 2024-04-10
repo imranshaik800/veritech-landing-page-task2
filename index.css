@@ -1,0 +1,298 @@
+.nav-items {
+    display: flex;
+    justify-content: flex-end;
+    
+} 
+
+.login-button {
+    color: white;
+    background-color: blue;
+    width: 100px;
+    border: none;
+    border-radius: 10px;
+}
+
+.navbar-nav {
+    font-weight: bold;
+    color: black;
+} 
+
+.navlink-button {
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+} 
+
+.demo-button {
+    color: white;
+} 
+
+.nav-items-responsive {
+    display: flex;
+    padding-left: 20px;
+    background-color: aquamarine;
+}
+
+
+@media  screen and (max-width:500px) {
+    .nav-items-responsive {
+        display : flex;
+        flex-direction: column;
+        width: 400px;
+        
+
+    }
+    
+}
+
+.nav-items-responsive-direction {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.course-image {
+    width: 700px;
+    padding-right: 20px;
+} 
+
+@media screen and (max-width:500px){
+    .course-image {
+        width: 390px;
+    }
+}
+
+.nav-item-title {
+    color: black;
+    font-weight: bold;
+} 
+
+.nav-item-description {
+    font-size: 30px;
+} 
+
+.input-container {
+    display: flex;
+    padding: 5px;
+} 
+
+.input-element {
+    width: 250px;
+    padding: 5px;
+    margin-right: 10px;
+} 
+
+.input-button {
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+}
+
+.course-offer-card {
+    width: 400px;
+    padding: 10px;
+    margin: 10px;
+    align-items: center;
+    border-radius: 10px;
+    background-color: white;
+   
+    box-shadow: 2px 2px 2px 2px gray;
+}
+
+.course-direction {
+    display: flex;
+    flex-wrap: wrap;
+    background-color:wheat;
+    padding-left: 20px;
+
+} 
+.courses {
+    color: red;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+.website-bg-container {
+    background-color: wheat;
+}
+
+@media screen and (min-width:500px) {
+    .course-direction {
+        display: flex;
+        flex-wrap: wrap;
+        background-color:wheat;
+        padding-left: 100px;
+    }
+}
+
+.course-card-button {
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    margin-left: 20%;
+} 
+
+.course-card-para {
+    color: blue;
+    margin-left: 90px;
+    font-size: 20px;
+    cursor: pointer;
+    padding-top: 20px;
+} 
+
+.best-university {
+    
+    padding: 30px;
+    background-color: white;
+    
+} 
+
+
+
+.university-names {
+    width: 1300px;
+    margin: 10px;
+} 
+
+@media screen and (max-width:500px){
+    .university-names {
+        width: 350px;
+        margin: 0px;
+    }
+}
+
+@media screen and (max-width:500px){
+    .best-university {
+        margin-left: 0px;
+    }
+}
+
+.top-university-heading {
+    text-align: center;
+} 
+
+.top-university-para {
+    text-align: center;
+} 
+
+.review-card-section {
+    background-color: white;
+    border: 2px solid grey;
+    margin: 10px;
+    width: 400px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+
+
+.reviews {
+    display: flex;
+    justify-content: center;
+}
+
+.down-arrow {
+    font-size: 50px;
+}
+.review-section {
+    padding: 5px;
+    display: flex;
+    margin-left: 120px;
+    flex-wrap: wrap;
+    
+} 
+
+@media screen and (max-width:500px){
+    .review-section {
+        margin-left: 50px;
+    }
+}
+
+
+.review-image {
+    width: 100px;
+} 
+
+.company-hired-section {
+    padding: 10px;
+    text-align: center;
+    
+} 
+
+.company-names {
+    width: 1500px;
+    padding: 20px;
+}
+
+@media screen and (max-width:500px){
+    .company-names {
+        width: 400px;
+    }
+}
+
+@media screen and (min-width:1000px){
+    .company-names {
+        width: 1500px;
+    }
+}
+.hired-companies {
+    color: blue;
+}
+
+.companies {
+    color: red;
+}
+.callback-button {
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    width: 180px;
+    border: none;
+}
+
+.know-more-companies-button {
+    border: 2px solid blue;
+    padding: 10px;
+    border-radius: 10px;
+    color: blue;
+    background-color: transparent;
+    width: 220px;
+    margin: 5px;
+}
+
+.company-review {
+    margin-left: 60px;
+    color: red;
+    font-weight: bold;
+}
+
+.navbar {
+    background-color: #183b56;
+    width: 100vw;
+    color: white;
+    padding-left: 100px;
+    padding-right: 100px;
+    
+}
+
+ul li {
+    list-style-type: none;
+    
+}
+.c {
+    display: flex;
+    flex-direction: column;
+}
+
+.icons {
+    display: flex;
+    margin: 10px;
+    padding: 10px;
+
+}
