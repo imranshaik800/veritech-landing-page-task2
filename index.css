@@ -148,8 +148,10 @@
     
     padding: 30px;
     background-color: white;
+    width: auto;
     
 } 
+
 
 
 
@@ -158,12 +160,20 @@
     margin: 10px;
 } 
 
-@media screen and (max-width:500px){
+@media screen and (max-width:900px){
     .university-names {
         width: 350px;
         margin: 0px;
     }
 }
+
+
+@media screen and (min-width:1200px){
+    .university-names {
+        width: 1200px;
+    }
+}
+
 
 @media screen and (max-width:500px){
     .best-university {
@@ -229,13 +239,13 @@
     padding: 20px;
 }
 
-@media screen and (max-width:500px){
+@media screen and (max-width:900px){
     .company-names {
         width: 400px;
     }
 }
 
-@media screen and (min-width:1000px){
+@media screen and (min-width:1200px){
     .company-names {
         width: 1500px;
     }
